@@ -14,7 +14,7 @@ document.getElementById("yessir").addEventListener("click", function() {
   container.style.backgroundSize = "cover";
   container.style.backgroundPosition = "center";
   const text = document.createElement("h2");
-  text.innerText = "Yesss 😍 vedel som to! ❤️";
+  text.innerText = "Klikla si na nie, mám pravdu?";
   text.style.color = "white";
   text.style.fontSize = "42px";
   text.style.textShadow = "2px 2px 10px black";
