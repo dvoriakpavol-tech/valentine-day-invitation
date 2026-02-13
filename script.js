@@ -1,11 +1,7 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById("yessir").addEventListener("click", function() {
-
-  // skryje celý pôvodný obsah stránky
   document.body.innerHTML = "";
-
-  // vytvorí nový kontajner
   const container = document.createElement("div");
   container.style.width = "100vw";
   container.style.height = "100vh";
@@ -17,8 +13,6 @@ document.getElementById("yessir").addEventListener("click", function() {
     "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA1ZnQwdTk5YmYxM2Q1eHg3Y2RzeDJzM2lheTRhNWdwZTY5MWM4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jNJW9Bj6vVXIERUgK3/giphy.gif')";
   container.style.backgroundSize = "cover";
   container.style.backgroundPosition = "center";
-
-  // nový text
   const text = document.createElement("h2");
   text.innerText = "Yesss 😍 vedel som to! ❤️";
   text.style.color = "white";
