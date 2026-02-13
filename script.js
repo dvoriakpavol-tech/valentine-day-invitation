@@ -3,8 +3,8 @@ let bottomPos = 0
 document.getElementById("yessir").addEventListener("click", function() {
   document.body.innerHTML = "";
   const container = document.createElement("div");
-  container.style.width = "75vw";
-  container.style.height = "75vh";
+  container.style.width = "100vw";
+  container.style.height = "100vh";
   container.style.display = "flex";
   container.style.flexDirection = "column";
   container.style.justifyContent = "center";
