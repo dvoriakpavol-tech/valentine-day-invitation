@@ -57,7 +57,7 @@ button {
 }
 
 body {
-    background-color: deeppink;
+    background-color: purple;
     display: flex;
     flex-direction: column;
     justify-content: center;
