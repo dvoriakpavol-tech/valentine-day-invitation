@@ -5,7 +5,7 @@ document.getElementById("yessir").addEventListener("click", function() {
     "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA1ZnQwdTk5YmYxM2Q1eHg3Y2RzeDJzM2lheTRhNWdwZTY5MWM4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jNJW9Bj6vVXIERUgK3/giphy.gif')";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";
-  const newText = document.createElement("Yesss 😍 vedel som to! ❤️");
+  const newText = document.createElement("h2");
   newText.innerText = "Yesss 😍 vedel som to! ❤️";
   newText.style.color = "white";
   newText.style.textAlign = "center";
