@@ -23,6 +23,11 @@ document.getElementById("yessir").addEventListener("click", function() {
   document.body.appendChild(container);
   article.style.background = "transparent";
   article.style.boxShadow = "none";
+  msg.style.fontSize = "clamp(24px, 6vw, 60px)";
+msg.style.position = "absolute";
+msg.style.top = "40%";
+msg.style.left = "50%";
+msg.style.transform = "translate(-50%, -50%)";
 
 });
 document.getElementById('nooo').addEventListener('mouseover', () => {
