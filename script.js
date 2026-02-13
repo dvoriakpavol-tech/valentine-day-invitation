@@ -1,19 +1,32 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById("yessir").addEventListener("click", function() {
-  document.body.style.backgroundImage =
-    "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA1ZnQwdTk5YmYxM2Q1eHg3Y2RzeDJzM2lheTRhNWdwZTY5MWM4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jNJW9Bj6vVXIERUgK3/giphy.gif')";
-  document.body.style.backgroundSize = "cover";
-  document.body.style.backgroundPosition = "center";
-  const newText = document.createElement("h2");
-  newText.innerText = "Yesss 😍 vedel som to! ❤️";
-  newText.style.color = "white";
-  newText.style.textAlign = "center";
-  newText.style.marginTop = "40vh";
-  newText.style.fontSize = "40px";
-  newText.style.textShadow = "2px 2px 10px black";
 
-  document.body.appendChild(newText);
+  // skryje celý pôvodný obsah stránky
+  document.body.innerHTML = "";
+
+  // vytvorí nový kontajner
+  const container = document.createElement("div");
+  container.style.width = "100vw";
+  container.style.height = "100vh";
+  container.style.display = "flex";
+  container.style.flexDirection = "column";
+  container.style.justifyContent = "center";
+  container.style.alignItems = "center";
+  container.style.backgroundImage =
+    "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA1ZnQwdTk5YmYxM2Q1eHg3Y2RzeDJzM2lheTRhNWdwZTY5MWM4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jNJW9Bj6vVXIERUgK3/giphy.gif')";
+  container.style.backgroundSize = "cover";
+  container.style.backgroundPosition = "center";
+
+  // nový text
+  const text = document.createElement("h2");
+  text.innerText = "Yesss 😍 vedel som to! ❤️";
+  text.style.color = "white";
+  text.style.fontSize = "42px";
+  text.style.textShadow = "2px 2px 10px black";
+
+  container.appendChild(text);
+  document.body.appendChild(container);
 
 });
 document.getElementById('nooo').addEventListener('mouseover', () => {
