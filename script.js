@@ -21,6 +21,8 @@ document.getElementById("yessir").addEventListener("click", function() {
 
   container.appendChild(text);
   document.body.appendChild(container);
+  article.style.background = "transparent";
+  article.style.boxShadow = "none";
 
 });
 document.getElementById('nooo').addEventListener('mouseover', () => {
