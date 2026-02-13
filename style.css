@@ -26,12 +26,15 @@ h1 {
 }
 
 .image {
-    width: 30rem;
-    height: 25rem;
+    width: 100%;
+    max-width: 360px;
     border-radius: 2rem;
+    aspect-ratio: 1 / 1;
+    margin: 14px auto 16px;
     background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJyN2tmeXh1bzV1b2RsOXY0eTVkcTkxeXRhNXdwOG51YmNtaGM1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pcOHEAG38BUaY/giphy.gif");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .btns {
