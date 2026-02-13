@@ -20,6 +20,20 @@ h1 {
     margin-bottom: 1rem;
     color: black;
     font-family: "JetBrains Mono", sans-serif;
+    font-size: clamp(26px, 6vw, 52px);
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+h2 {
+    width: fit-content;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: clamp(18px, 4.5vw, 34px);
     background-color: #FFFFFF;
     padding: 1rem 2rem;
     border-radius: 1rem;
